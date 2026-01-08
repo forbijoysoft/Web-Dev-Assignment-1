@@ -8,7 +8,8 @@
 
 body{
     font-family:"Inter", sans-serif;
-    background-color: rgba(255, 255, 255, 1);
+    /* background-color: rgba(255, 255, 255, 0); */
+    background-color: rgba(126, 122, 122, 0.123);
 }
 
 /* Common Style ends here */
@@ -16,7 +17,7 @@ body{
 
 /* navber design starts here */
 #navbar-container{
-    max-width: 80%;
+    max-width: 70%;
     display:flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -58,6 +59,9 @@ body{
 }
 
 /* navber design ends here */
+
+
+/* Banner Design Section Starts Here */
 
 #banner-container{
     width: 100%;
@@ -144,3 +148,117 @@ body{
     background-color: tomato;
     cursor: pointer;
 }
+/* Banner Design Section Ends Here */
+
+/* Notes Design Section Starts Here */
+#notes-section{
+    max-width: 70%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding:16px;
+}
+#notes-section .notes-heading{
+    text-align: center;
+
+}
+
+#notes-section .notes-heading .notes-h2{
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 30px;
+
+}
+
+#notes-section .notes-heading .notes-p{
+    margin-bottom: 40px;
+    margin-top: 10px;
+
+}
+
+#notes-section .notes-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#notes-section .notes-container .notes{
+  border: 1px solid rgb(255, 255, 255);
+  border-bottom: none;
+  background-color: rgb(255, 255, 255, 1);
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  padding:10px;
+  width: 22%;
+  text-align: center;
+
+}
+
+#notes-section .notes-container .notes .notes-h3{
+  padding: 15px 0px;
+
+}
+
+.notes-container .notes .p-notes{
+  padding-bottom:30px; 
+
+}
+
+.notes-container .notes img{
+  
+  background-color:tomato;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 50px;
+
+}
+
+/* Notes Design Section Ends Here */
+
+
+/* Brain Section Starts Here */
+#brain-container{
+    max-width: 70%;
+    /* border:1px solid green; */
+    display: flex;
+    justify-content: start;
+    /* gap: 10px; */
+    align-items: center;
+    margin: 0 auto;
+    padding:16px;
+    
+    
+}
+#brain-container .brain-img img{
+    width: 80%; 
+    margin-top: 40px;
+}
+
+
+.brain-details .brain-p1{
+    color:green;
+    /* margin-bottom: 10px; */
+}
+
+.brain-details .brain-h3{
+    color:rgb(0, 0, 0);
+    font-size: 50px;
+    /* margin-bottom: 20px; */
+}
+
+.brain-details .brain-p2{
+    
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.brain-details h5 i{
+    color: green;
+    margin-bottom: 10px;
+}
+
+#brain-container .brain-details{
+    margin-top: 30px;
+    margin-left: -50px;
+}
+/* Brain Section Ends Here */
