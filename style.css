@@ -21,7 +21,7 @@ body{
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding:16px;
 }
 
@@ -54,6 +54,93 @@ body{
 }
 #navbar-container .navbar-btn button:hover{
     background-color: tomato;
+    cursor: pointer;
 }
 
 /* navber design ends here */
+
+#banner-container{
+    width: 100%;
+    height: 70vh;
+
+    background-image: url("./images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+
+}
+
+#banner-container .banner-details{
+    text-align: center;
+}
+
+#banner-container .banner-details .p1{
+    background-color: white;
+    color:green;
+    display:inline;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    margin-bottom: 15px;
+}
+
+#banner-container .banner-details .p1 .round-icon{
+    
+    color:rgba(0, 128, 0, 0.562);
+    
+}
+
+
+#banner-container .banner-details .h2-1{
+    color:rgba(255, 255, 255, 0.771);
+    padding-top: 10px;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+#banner-container .banner-details .h2-2{
+    color:rgba(0, 255, 26, 0.57);
+    /* padding-top: 10px; */
+    font-size: 72px;
+    font-weight: bold;
+}
+
+#banner-container .banner-details p{
+    color:rgb(255, 255, 255, 1);
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.btn1{
+    background-color: #30B868;
+    padding: 12.5px 16px;
+    color: white;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.btn2{
+    background-color: transparent;
+    padding: 12.5px 16px;
+    color: white;
+    font-size: 20px;
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
