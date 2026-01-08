@@ -1,0 +1,59 @@
+
+/* Common Style starts here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Inter", sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* Common Style ends here */
+
+
+/* navber design starts here */
+#navbar-container{
+    max-width: 80%;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    border: 2px solid red;
+    padding:16px;
+}
+
+#navbar-container .navbar-details ul{
+    display: flex;
+    gap: 32px;
+}
+
+#navbar-container .navbar-details ul li{
+    list-style-type: none;
+    text-decoration: none;
+    color:var(--#000000, rgba(0, 0, 0, 1));
+    font-size: 20px;
+}
+
+#navbar-container .navbar-details ul li a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+#navbar-container .navbar-btn button{
+    background-color: #30B868;
+    padding: 12.5px 16px;
+    color: white;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+    
+}
+#navbar-container .navbar-btn button:hover{
+    background-color: tomato;
+}
+
+/* navber design ends here */
