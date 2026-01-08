@@ -219,7 +219,7 @@ body{
 /* Brain Section Starts Here */
 #brain-container{
     max-width: 70%;
-    border:1px solid green;
+    /* border:1px solid green; */
     display: flex;
     justify-content: start;
     /* gap: 10px; */
@@ -263,9 +263,11 @@ body{
 }
 /* Brain Section Ends Here */
 
+
+/* Early Section starts here */
 #early-access-section{
     max-width: 70%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     padding:16px;
     align-items: center;
@@ -308,3 +310,63 @@ body{
     border:none;
     border-radius: 5px;
 }
+
+.btn:hover{
+    background-color:tomato;
+    
+}
+
+/* Early section ends here  */
+
+/* Footer section starts here */
+
+#footer-section{
+width: 100%;
+height: 40vh;
+background-color: rgb(14, 12, 22);
+
+/* display: flex;
+flex-direction: column; */
+}
+
+.footer-container{
+    max-width: 70%;
+    /* border:1px solid rgb(0, 255, 30); */
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.social-links h3{
+    color:white;
+    margin-bottom:20px ;
+}
+
+.social-links a{
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.social-links a:hover{
+    background-color: tomato;
+    
+}
+
+hr{
+border: none;       
+  height: 2px;        
+  background-color: #271e78d5; 
+}
+.hr{
+    max-width: 70%;
+    color:white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+/* Footer section ends here */
