@@ -8,8 +8,8 @@
 
 body{
     font-family:"Inter", sans-serif;
-    /* background-color: rgba(255, 255, 255, 0); */
-    background-color: rgba(126, 122, 122, 0.123);
+    background-color: rgb(255, 255, 255, 1);
+    /* background-color: rgba(126, 122, 122, 0.123); */
 }
 
 /* Common Style ends here */
@@ -84,16 +84,20 @@ body{
 
 #banner-container .banner-details .p1{
     background-color: white;
-    color:green;
-    display:inline;
+    color: green;
+    display: inline-flex;      
+    align-items: center;       
+    gap: 8px;                  
     padding: 8px 12px;
     border-radius: 1000px;
     margin-bottom: 15px;
+    font-size: 20px;
 }
 
-#banner-container .banner-details .p1 .round-icon{
+#banner-container .banner-details .p1 img{
     
-    color:rgba(0, 128, 0, 0.562);
+    width: 18px;
+    height: 18px;
     
 }
 
@@ -183,10 +187,12 @@ body{
 }
 
 #notes-section .notes-container .notes{
-  border: 1px solid rgb(255, 255, 255);
+  /* border: 1px solid rgb(255, 255, 255); */
   border-bottom: none;
   background-color: rgb(255, 255, 255, 1);
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  border-radius: 9px 9px 0px 0px;
+
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
   padding:10px;
   width: 22%;
@@ -206,8 +212,8 @@ body{
 
 .notes-container .notes img{
   
-  background-color:tomato;
-  padding: 10px;
+  background-color: #F95555;
+  padding: 14px;
   border-radius: 50%;
   margin-top: 50px;
 
@@ -234,20 +240,16 @@ body{
     margin-top: 40px;
 }
 
-
 .brain-details .brain-p1{
     color:green;
-    /* margin-bottom: 10px; */
 }
 
 .brain-details .brain-h3{
     color:rgb(0, 0, 0);
     font-size: 50px;
-    /* margin-bottom: 20px; */
 }
 
 .brain-details .brain-p2{
-    
     margin-bottom: 25px;
     margin-top: 10px;
 }
@@ -296,10 +298,7 @@ body{
 }
 
 .early-access-container p{
-    /* margin-bottom: 16px; */
-    font-size: 16px;
-
-    
+    font-size: 16px;   
 }
 
 .btn{
@@ -315,18 +314,15 @@ body{
     background-color:tomato;
     
 }
-
 /* Early section ends here  */
 
-/* Footer section starts here */
 
+
+/* Footer section starts here */
 #footer-section{
 width: 100%;
 height: 40vh;
 background-color: rgb(14, 12, 22);
-
-/* display: flex;
-flex-direction: column; */
 }
 
 .footer-container{
